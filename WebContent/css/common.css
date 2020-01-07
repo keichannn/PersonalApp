@@ -1,0 +1,670 @@
+body{
+	background-image: url(pictures/top.PNG); background-size:cover;
+}
+
+table{
+	border-collapse: collapse;
+	background-color: white;
+}
+
+th{
+	border: solid 1px;
+	padding: 0.5em;
+}
+
+td{
+	border: solid 1px;
+	padding: 0.5em;
+}
+
+input[type="text"]{
+	border-radius: 3px;
+}
+
+button[type="submit"]{
+	padding: 0.5% 1%;
+	background-color: black;
+	color: white;
+}
+
+button[type="submit"]:hover{
+	background-color: darkcyan;
+}
+
+input:focus {
+
+    border:solid 1px darkcyan;
+}
+
+li a:hover {
+	background-color: rgba(0,0,255,0.3);
+}
+
+/* ---- ボタン ---- */
+
+#start_button{
+	font-size: 130%;
+	border:1px black solid;
+	border-radius: 50px;
+	padding: 1% 1.3%;
+	margin: 3% auto;
+	background: black;
+	text-decoration: none;
+	color: white;
+}
+
+#start_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#top_button{
+	display: inlin-block;
+	height: 30px;
+	padding: 1% 1%;
+	border:1px black solid;
+	border-radius: 50px;
+	background: black;
+	text-decoration: none;
+	color: white;
+}
+
+#top_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#login_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	margin-right: 5%;
+	padding: 5% 8%;
+	color: white;
+	text-decoration: none;
+}
+
+#login_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#userInsert_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	margin-left: 5%;
+	padding: 5% 7%;
+	color: white;
+	text-decoration: none;
+}
+
+#userInsert_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#post_button{
+	margin-top: 2%;
+}
+
+#confirm_button{
+	margin-bottom: 20px;
+}
+
+#softUpdate_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	margin-right: 5%;
+	padding: 5% 8%;
+	color: white;
+	text-decoration: none;
+}
+
+#softUpdate_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#userUpdate_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	margin-left: 5%;
+	padding: 5% 14%;
+	color: white;
+	text-decoration: none;
+}
+
+#userUpdate_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#update_button{
+	display: inlin-block;
+	position: relative;
+	top: 8px;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	padding: 1% 1.3%;
+	color: white;
+	text-decoration: none;
+}
+
+#update_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#delete_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	padding: 1% 1.3%;
+	color: white;
+	text-decoration: none;
+}
+
+#delete_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#mypage_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	padding: 1% 1.3%;
+	text-decoration: none;
+	color: white;
+}
+
+#mypage_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#logout_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	margin: 0 2%;
+	padding: 1.5% 1.7%;
+	margin:0 10px;
+}
+
+#logout_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+#unsubscribe_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	margin-left: 2%;
+	padding: 1.5% 2%;
+	margin:0 10px;
+}
+
+#unsubscribe_button:hover{
+	background-color: darkcyan;
+	font-weight: bold;
+}
+
+
+/* ------ スライドショー ------ */
+
+#slideshow{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+/* --------- 時計 -------- */
+
+#clock-02{
+	font-size: 150%;
+	font-family: arial black;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+/* ----- google検索 ---- */
+
+#googleSearch{
+
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 3%;
+
+}
+
+/* -----margin系---- */
+
+#div_margin_right_and_margin_left{
+	margin: 0 3%;
+}
+
+#div_margin_bottom{
+	margin-bottom: 3%;
+}
+
+#div_margin_top{
+	margin-top: 4%;
+}
+
+#index_title{
+	margin-bottom: 2%;
+}
+
+#mypage_title{
+	margin-bottom: 3%;
+}
+
+#form_margin_bottom{
+	margin-bottom: 3%;
+}
+
+#reviewOrLogout{
+	margin-bottom:20px;
+}
+
+/* ----------------- */
+
+#index_attention{
+	width: 50%;
+	position: relative;
+	left: 30%;
+	text-align: left;
+}
+
+#login{
+	font-size: 110%;
+	margin-top: 18%;
+	text-align:center;
+}
+
+#login_form{
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	background: gray;
+}
+
+#user_id{
+	color: darkcyan;
+	font-weight: bold;
+}
+
+
+#top-page{
+	font-size: 130%;
+	position: relative;
+	top: 200px;
+	height: 30px;
+	width: 400px;
+	padding-top: 1%;
+	margin: 0 auto;
+	margin-top: 9%;
+	text-align:center;
+}
+
+#link_bottom{
+	padding-top: 1%;
+	margin: 3% auto;
+}
+
+#topPage{
+    position: relative;
+    top:80px;
+    text-align:center;
+}
+
+#mypage{
+	font-size: 110%;
+    position: relative;
+    top:80px;
+    margin-top: 8%;
+    text-align:center;
+}
+
+#select{
+    position: relative;
+    top:150px;
+    margin-top: 10%;
+    text-align:center;
+}
+
+#selectResult{
+    position: relative;
+    top:150px;
+    margin-top: 2%;
+    text-align:center;
+}
+
+#sort{
+	margin-left: 1%;
+	padding: 0.5% 1%;
+	background-color: black;
+	color:white;
+}
+
+#review{
+   width: 45%;
+   position:relative;
+   top:10px;
+   margin: 0 auto;
+   padding: 2% 2%;
+   border: 3px solid black;
+   background-color: white;
+
+}
+
+#userName_review{
+	font-weight: bold;
+	color: darkcyan;
+}
+
+#softInsert_attention{
+	width: 42%;
+	text-align:left;
+	margin-left: 35%;
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+
+#insertSoft{
+	position:relative;
+	top:90px;
+	margin-top: 5%;
+	text-align:center;
+}
+
+#insertSoft_form{
+	text-align: left;
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	background: gray;
+}
+
+#insertSoftConfirm{
+	position:relative;
+	top:150px;
+	margin-top: 3%;
+	text-align:center;
+}
+
+#insertSoftConfirm_form{
+	text-align: left;
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	background: gray;
+}
+
+#review_form{
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	background: gray;
+}
+
+#update{
+	font-size: 110%;
+	position: relative;
+	top: 200px;
+	height: 30px;
+	width: 400px;
+	padding-top: 1%;
+	margin: 0 auto;
+	margin-top: 9%;
+	text-align:center;
+}
+
+#updateUserInput{
+	position:relative;
+	top:100px;
+	text-align:center;
+}
+
+
+
+#updateUserInput_form{
+	text-align: left;
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	background: gray;
+}
+
+#updateSoft{
+	position:relative;
+	top:150px;
+	text-align:center;
+}
+
+#updateSoft_form{
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 10%;
+	background: gray;
+}
+
+#updateSoftInput{
+	position:relative;
+	top:120px;
+	text-align:center;
+}
+
+#updateSoftInput_form{
+	text-align: left;
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	background: gray;
+}
+
+#updateSoftConfirm{
+	position:relative;
+	top:150px;
+	text-align:center;
+}
+
+#updateSoftConfirm_form{
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	background: gray;
+}
+
+#deleteSoft{
+	position:relative;
+	top:200px;
+	text-align:center;
+}
+
+#deleteSoft_form{
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 9%;
+	background: gray;
+}
+
+#deleteSoftConfirm{
+	position:relative;
+	top:200px;
+	text-align:center;
+}
+
+#deleteSoftConfirm_form{
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 3%;
+	background: gray;
+}
+
+#deleteUser{
+	font-size: 130%;
+	position:relative;
+	top:200px;
+	text-align:center;
+}
+
+#insertUser{
+
+	position:relative;
+	top:100px;
+	margin-top: 8%;
+	text-align:center;
+}
+
+#userInsert_attention{
+	position: relative;
+	left: 35%;
+	width: 42%;
+	text-align:left;
+}
+
+#insertUser_form{
+	text-align: left;
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 3%;
+	background: gray;
+}
+
+#insertUserConfirm{
+	position:relative;
+	top:200px;
+	text-align:center;
+}
+
+#insertUserConfirm_form{
+	text-align: left;
+	width: 400px;
+	padding: 2% 2%;
+	margin:0 auto;
+	margin-bottom: 2%;
+	margin-top: 3%;
+	background: gray;
+}
+
+/*---------- クラス属性 -----------*/
+
+.mypage_center_button{
+	display: inlin-block;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: black;
+	margin-right: 2%;
+	padding: 1.5% 2%;
+	margin:0 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.mypage_center_button:hover{
+	background-color: darkcyan;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.error{
+	color:red;
+	font-weight: bold;
+}
+
+.item{
+	font-weight: bold;
+}
+
+.link_1{
+	color: white;
+	text-decoration: none;
+}
+
+.link_1:hover{
+	font-weight: bold;
+}
+
+
+.link_2{
+	color: black;
+	text-decoration: none;
+}
+
+.link_2:hover{
+	font-weight: bold;
+}
+
+.link_3{
+	color: blue;
+	text-decoration: none;
+}
+
+.link_3:hover{
+	font-weight: bold;
+}
+
+.review_link{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.review_link:hover{
+	font-weight: bold;
+	color: white;
+}
+
+.autoPage{
+	position:relative;
+	top:200px;
+	text-align: center;
+}
+
+.color_and_fontWeight{
+	color: darkcyan;
+	font-weight: bold;
+}
+
+.fontWeight{
+	font-weight: bold;
+}
+
+.color_red{
+	color: red;
+}
